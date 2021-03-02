@@ -1,5 +1,3 @@
-# Special_Topics_Astro 
-
 1) Lagrange Points.py
 This consists of WP1-2.
 
