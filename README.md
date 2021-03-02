@@ -7,7 +7,8 @@ the transfer time by controlling the sail solar incidence angle.
 
 FILES:
 
-1) Lagrange Points.py This consists of WP1-2.
+1) Earth_Venus_Manifolds.py 
+Computation of lagrange points in Earth-Venus system and invariant manifolds (+ representation)
 
 nn_dataset_generation This is a code which imports the generated manifolds of the Lagrange Points.py file, computed the Euclidean Norm and saves this data in 2 large csv files (training, testing) for ANN training. Efficiently generating data using the special spatial distance function.
 
