@@ -10,6 +10,8 @@ FILES:
 1) Earth_Venus_Manifolds.py 
 Computation of lagrange points in Earth-Venus system and invariant manifolds (+ representation)
 
-nn_dataset_generation This is a code which imports the generated manifolds of the Lagrange Points.py file, computed the Euclidean Norm and saves this data in 2 large csv files (training, testing) for ANN training. Efficiently generating data using the special spatial distance function.
+2) ANN_generate_dataset_py
+Imports the generated manifolds from Earth_Venus_Manifolds.py , computes the Euclidean Norm and saves this data in 2 large csv files for ANN training + testing.
 
-ANN_Training ANN architecture implementation, training and graphic visualtisation of outcomes
+3) ANN_training.py
+ANN architecture implementation, training and graphic visualtisation of outcomes
